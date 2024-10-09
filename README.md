@@ -99,22 +99,79 @@ int(y)
 
 En python una cadena se declara con comilla simple 
 ```python
-adn=‘agtcaggagttaaccata’
-adn_corto=’cgta’
+adn='agtcaggagttaaccata'
+adn_corto='cgta'
 ```
 o se declara con comillas
 ```python
-frase= “I can’t Believe It, It’s amazing”
-texto=’UPN 201, Educar para transformar’
+frase="I can’t Believe It, It’s amazing"
+texto='UPN 201, Educar para transformar'
 ```
 
 ```python
 adn+adn_corto
 texto*3
-frace.lower()
+frase.lower()
 len(adn)
+adn.count('g')
+adn.replace('g','TAZA')
+'a' in adn
+texto.split()
+texto.split(',')
+cadena='3*una,*español-ingles,*algo'
+cadena.split('*')
 ```
 
+> [!IMPORTANT]
+> Ejercicio
+> Escribir una cadena con las letras a,g,t,c y calcular el porcentaje de ocurrencia de a y c.
+> Intercambiar la a por la c y la c por la a.
+
+> [!NOTE]
+> El uso de los índices es similar tanto para listas, cadenas, etc. 
+
+
+```python
+# toma en la cadena desde el índice inicio hasta el indice fin-1 
+pos='Escuela de Otoño de Biología Matemática'
+# saltos dice de cuanto en cuanto se van tomando. Si no se pone, se va de uno en uno
+pos[inicio:final:saltos]
+```
+
+```python 
+pos[0]
+pos[1:4]
+pos[5:2]
+pos[5:2:-1]
+pos[1:]
+pos[1:100]
+pos=[::-1]
+pos[:-3]
+pos[-3:]
+```
+
+```python
+#colección de objetos
+L1=[2,7,11,-3]
+#distintos tipos de elementos
+L2=[5,'gato',1,0]
+#puede estar vacia
+c=[]
+#puede ser una lista de listas 
+Listas=[12,[‘a’,1,2,3],[b,[c,14]]]
+#genera una lista desde inicio hasta final menos uno.
+#paso si se da debe ser entero,indica el tamaño de paso.
+range(inicio,final,paso)
+```
+
+tutorial 
+https://recursospython.com/guias-y-manuales/listas-y-tuplas/
+
+
+
+
+
+ 
 
 
 
