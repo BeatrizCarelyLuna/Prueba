@@ -23,4 +23,8 @@ adn.count('g')
 
 ggghhh
 jjjj
+```python
+adn.count('g')
+```
 
+$${\color{red}Red}$$
