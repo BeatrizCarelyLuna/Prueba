@@ -72,3 +72,63 @@ https://www.python.org/downloads/
 > [!CAUTION]
 > Negative potential consequences of an action.
 
+
+####Desde aquí
+
+$${\color{lightblue}\textrm{Variables}}$$
+
+No se necesitan declarar las variables
+
+```python
+x=13
+y=x+3.0
+```
+
+Asignación múltiple
+
+```python
+a,b=4,5
+```
+
+Tipos de variable
+```python
+type(y) 
+float(x)
+int(y)
+```
+
+En python una cadena se declara con comilla simple 
+```python
+adn=‘agtcaggagttaaccata’
+adn_corto=’cgta’
+```
+o se declara con comillas
+```python
+frase= “I can’t Believe It, It’s amazing”
+texto=’UPN 201, Educar para transformar’
+```
+
+```python
+adn+adn_corto
+texto*3
+frace.lower()
+len(adn)
+```
+
+
+
+
+
+
+
+
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
+
