@@ -124,7 +124,9 @@ cadena.split('*')
 
 > [!IMPORTANT]
 > Ejercicio
+> 
 > Escribir una cadena con las letras a,g,t,c y calcular el porcentaje de ocurrencia de a y c.
+>
 > Intercambiar la a por la c y la c por la a.
 
 > [!NOTE]
@@ -150,6 +152,8 @@ pos[:-3]
 pos[-3:]
 ```
 
+$${\color{lightblue}\textrm{Listas}}$$
+
 ```python
 #colección de objetos
 L1=[2,7,11,-3]
@@ -166,6 +170,21 @@ range(inicio,final,paso)
 
 tutorial 
 https://recursospython.com/guias-y-manuales/listas-y-tuplas/
+
+```python
+L1+L2
+L2*3
+x=L2[-1]
+z=L1[2:4]
+L1[0]=250
+len(Listas)
+Listas[1][2]
+L1.index(11)
+L2.append(-12)
+```
+
+$${\color{lightblue}\textrm{Tuplas}}$$
+
 
 
 
