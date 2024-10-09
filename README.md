@@ -185,7 +185,49 @@ L2.append(-12)
 
 $${\color{lightblue}\textrm{Tuplas}}$$
 
+```python
+#tupla de objetos
+T=(1,2,4,'x0',-13)
+#tupla de un elemento
+f=(4,)
+#tupla vacia para 2.x, en 3.x no lleva coma
+g=(,)
+#tupla de tuplas
+Tupla=(12,(4,[1,3]),(3,[6,2]))
+```
 
+> [!NOTE]
+> Las tuplas son inmutables
+
+```python
+#índice
+T[0]
+T[0]='hola'
+#índice de la tupla de tuplas
+Tupla[2][1]
+```
+
+$${\color{lightblue}\textrm{Diccionarios}}$$
+```python
+basta={'nombre':'Maria','lugar':'Mexico', 'fruto':'mazorca, mango, manzana'}
+#se agrega un elemento
+basta['animal']='mamut'     
+#diccionario vacio
+D={}                                  
+```
+
+```python
+basta['nombre']
+len(basta)
+basta.keys()
+basta.values()
+basta[(3,4)]=[5,7,'si se puede']
+basta['nombre']='Miguel'
+del basta['animal']
+basta['fruto'].split()
+basta['fruto'].split(',')
+basta[[3,4]]='no se puede'
+```
 
 
 
